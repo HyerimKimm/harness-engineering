@@ -1,13 +1,13 @@
 # Review Report
 
 - 대상 커밋 초안: `_workspace/commit-draft.md`
-- 대상 diff: `git diff --cached` (README.md)
+- 대상 diff: `git diff --cached` (.claude/skills/commit-message/SKILL.md, _workspace/commit-draft.md, _workspace/review-report.md)
 
 ## 판정: PASS
 
 ## 사유:
-1. 형식: `docs(readme): 하네스란 무엇인가 Part 01 내용 추가` — `type(scope): subject` 패턴을 정확히 준수 (type=docs, scope=readme, 콜론 뒤 공백 1개, 제목 37자로 길이 적정).
-2. scope 적절성: staged 변경 파일이 `README.md` 단 하나이며 diff 전체가 README 문서 추가 내용이므로 type `docs`, scope `readme` 모두 실제 변경과 부합.
-3. 사실 일치: diff에는 "Part 01: 하네스란 무엇인가" > "01 왜 하네스인가?" 절과 "하네스 엔지니어링, 단일 에이전트 한계, 환경 설계, around the model, 구조적 병목" 키워드가 추가됨. 커밋 본문은 "왜 하네스인가?" 절 추가와 "하네스 엔지니어링, 단일 에이전트 한계, 환경 설계 등 핵심 키워드 정리"를 언급하며 diff 내용과 일치 ("등"으로 나머지 키워드 포괄, 허위·과장 서술 없음).
+1. 형식: `fix(skill): commit-message 스킬의 git diff 명령어 오타 수정` — `type(scope): subject` 패턴을 정확히 준수 (type=fix, scope=skill, 콜론 뒤 공백 1개, 제목 총 49자로 길이 적정, 말미 마침표 없음). 제목과 본문 사이 빈 줄 존재.
+2. scope 적절성: 핵심 변경이 `.claude/skills/commit-message/SKILL.md`에서 발생했으므로 scope `skill`은 실제 변경 위치와 부합. type `fix`도 오타 수정이라는 변경 성격과 일치.
+3. 사실 일치: staged diff에서 SKILL.md의 precondition 체크 명령어가 `git diff --cached --quied` → `git diff --cached --quiet`로 수정되었고, 본문 1문장이 이를 정확히 서술함. 또한 diff에 `_workspace/commit-draft.md`, `_workspace/review-report.md` 두 신규 파일 추가가 포함되어 있고, 본문 2문장("스킬 실행 결과물인 커밋 초안과 리뷰 리포트를 _workspace/에 추가했다")이 이를 정확히 서술함. 과장·누락·허위 서술 없음.
 
 ## 수정지시 : 해당 없음 (PASS)
