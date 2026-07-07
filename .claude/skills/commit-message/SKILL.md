@@ -11,7 +11,7 @@ allowed-tools: Bash Read Write
 ## Workflow
 
 1. Precondition 체크.
-   `git diff --cached --quied`를 실행한다.
+   `git diff --cached --quiet`를 실행한다.
    exit code 1(변경 있음)이면 통과, exit code 0(변경 없음)이면 git add 안내 후 종료.
 2. author 호출.
    `commit-msg-author` 에이전트를 Agent 도구로 호출.
