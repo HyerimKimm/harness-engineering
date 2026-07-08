@@ -1,7 +1,10 @@
 # 하네스 엔지니어링 공부용 리포지토리
 
-## Part 01: 하네스란 무엇인가
+## Skills
 
-### 01 왜 하네스인가?
+- commit-message : 사용자가 커밋 메시지 작성을 요청할 때 수행할 절차
 
-핵심 키워드 : 하네스 엔지니어링, 단일 에이전트 한계, 환경 설계, around the model, 구조적 병목
+## Agents
+
+- commit-msg-author : 커밋 메시지 작성하는 에이전트
+- commit-msg-reviewer : 커밋 메시지 검토하는 에이전트
