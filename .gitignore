@@ -1,0 +1,33 @@
+# Workspace
+_workspace/
+
+# Dependencies
+**/node_modules
+
+# Next.js
+**/.next
+**/out
+
+# Build
+**/dist
+**/build
+
+# Env
+**/.env
+**/.env.*
+
+# Logs
+**/*.log
+
+# Coverage
+**/coverage
+
+# TypeScript
+**/*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
