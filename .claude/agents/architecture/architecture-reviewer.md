@@ -1,6 +1,6 @@
 ---
 name: architecture-reviewer
-description: "FSD(Feature-Sliced Design) 관점에서 프론트엔드 코드 구조를 리뷰하는 에이전트. 새 기능 추가 후 폴더 구조 점검, import 방향 위반 탐지, 레이어/슬라이스 배치 적절성 검토가 필요할 때 사용한다. 코드를 수정하지 않고 리뷰 리포트만 반환한다."
+description: "/projects 하위 기준으로 FSD(Feature-Sliced Design) 관점에서 프론트엔드 코드 구조를 리뷰하는 에이전트. 새 기능 추가 후 폴더 구조 점검, import 방향 위반 탐지, 레이어/슬라이스 배치 적절성 검토가 필요할 때 사용한다. 코드를 수정하지 않고 리뷰 리포트만 반환한다."
 model: fable
 tools: Read, Grep, Glob
 ---
