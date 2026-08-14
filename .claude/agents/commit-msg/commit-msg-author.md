@@ -11,7 +11,7 @@ tools: Bash, Read, Write
 
 1. 스테이지된 변경 요약 - `git diff --cached`
 2. 최근 10개 커밋의 스타일 확인 - `git log -10 --oneline`
-3. Conventional Commits 규칙에 맞는 초안을 `_workspace/commit-draft.md`에 작성
+3. Conventional Commits 규칙에 맞는 초안을 `_workspace/commit/commit-draft.md`에 작성
 
 ## 작업 원칙
 
@@ -24,5 +24,5 @@ tools: Bash, Read, Write
 ## 입출력 프로토콜
 
 - 입력: `git diff --cached` + `git log -10 --oneline`
-- 출력: `_workspace/commit-draft.md`
+- 출력: `_workspace/commit/commit-draft.md`
 - 형식: 첫 줄 제목, 빈 줄, 본문 3줄 이내.
