@@ -1,9 +1,9 @@
-# harness-engineering
+# 프로젝트 개요
 
-2인 팀으로 커밋 메세지를 생성하는 최소 하네스 프로젝트
+- 목적 : 클로드 코드를 활용한 하네스 엔지니어링을 활용해서 "미진이의 파스타 게임"을 projects/ 하위에 개발한다.
 
-## 규칙
+## 기술 스택
 
-- 커밋 메세지는 Conventional Commits 형식 (type(scope) : subject).
-- 중간 산출물은 `_workspace/`에 둔다.
-- 에이전트는 `.claude/agents/`, 스킬은 `.claude/skills/`에 정의한다.
+- commit-message : 사용자가 커밋 메시지 작성을 요청할 때 수행할 절차
+
+## 폴더 구조
