@@ -4,6 +4,11 @@
 
 ## 기술 스택
 
-- commit-message : 사용자가 커밋 메시지 작성을 요청할 때 수행할 절차
+- Next.js, SASS, Zustand, React Query
 
 ## 폴더 구조
+
+## 참조 문서
+
+- 기능 명세 : *references\00*기획
+- 아키텍처 : *references\01*아키텍처
